@@ -1,0 +1,32 @@
+1- git branch bibliografia
+2- Crear capitulo4.txt En este	capítulo veremos cómo usar GitHub para alojar repositorios en remoto.
+git add capitulo4.txt git commit -m 'Añadido capitulo 4' 
+git log
+3- git checkout bibliografia
+   crear bibliografia.txt con a. Chacon, S. and	Straub,	B. Pro Git. Apress.
+git add bibliografia.txt
+git commit -m "Añadida primera referencia bibliografica"
+git log
+4- git checkout master
+   git merge bibliografia
+git branch -d bibliografia
+5- git branch bibliografia 
+git checkout bibliografia
+el txt añadir 
+a. Scott	Chacon	and	Ben	Straub.	Pro	Git.	Apress.
+b. Ryan	Hodson.	Ry’s	Git	Tutorial.	Smashwords	(2014)
+6- git add bibliografia.txt
+git commit -m "Añadida nueva referencia bibliografica"
+git checkout master
+7- el txt cambiar
+a. Chacon,	S.	and	Straub,	B.	Pro	Git.	Apress.
+b. Loeliger,	J.	and	McCullough,	M.	Version	control	with	Git.	O’Reilly.
+8- git add bibliografia.txt
+ git commit -m "Añadida nueva referencia bibliografica"
+git checkout master
+git merge bibliografia
+9- (EL CONFLICTO)
+10- git add bibliografia.txt
+git commit -m "Resuelto conflicto de bibliografia"
+git log
+ 
